@@ -2,8 +2,8 @@
 - name: variables
   hosts: localhost
   vars:
-    course: JoinDevOps
-    Duration: 120Hrs
+    course: Terraform
+    Duration: 20Hrs
   tasks:
     - name: print variable information
       ansible.builtin.debug:
