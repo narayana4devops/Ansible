@@ -5,7 +5,7 @@
     prompt: enter user name
     private: false
   - name: PASSWD
-    promt: enter password
+    prompt: enter password
     private: true
   tasks:
   - name: print variables from prompt
