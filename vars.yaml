@@ -1,2 +1,3 @@
-course: DevOps
-Duration: 120Hrs
+course: "DevOps"
+Duration: "120Hrs"
+WISHES: "Morning from variable file"
