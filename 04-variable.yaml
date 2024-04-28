@@ -4,9 +4,9 @@
   vars:
     course: Terraform
     Duration: 20Hrs
-  - name: print variable at play level
-    ansible.builtin.debug:
-    msg: "I am learing DevOps from {{course}} and Duration is {{Duration}}, at play level"
+- name: print variable at play level
+  ansible.builtin.debug:
+  msg: "I am learing DevOps from {{course}} and Duration is {{Duration}}, at play level"
 
   tasks:
     - name: print variable information
