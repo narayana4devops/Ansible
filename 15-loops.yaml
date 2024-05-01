@@ -9,3 +9,10 @@
     - ansible
     - terroform
     - docker
+  - name: Install packages
+    ansible.builtin.dnf:
+      name: "{{item}}"
+    loop:
+      - mysql
+      - nginx
+      - postfix
