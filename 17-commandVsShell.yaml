@@ -5,5 +5,4 @@
       ansible.builtin.command: "echo 'this command is from command module' > /tmp/command.txt "
 
     - name: shell module
-      ansible.builtin.shell: "echo 'this command is from shell module' /tmp/shell.txt"
-      
+      ansible.builtin.shell: "echo 'this command is from shell module' > /tmp/shell.txt"
